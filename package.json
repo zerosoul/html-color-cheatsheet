@@ -1,7 +1,7 @@
 {
-  "name": "react-starter",
+  "name": "css-color-cheatsheet",
   "version": "1.1.0",
-  "description": "React webapp starter",
+  "description": "html color online",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zerosoul/react-starter.git"
+    "url": "git+https://github.com/zerosoul/css-color-cheatsheet.git"
   },
   "keywords": [
     "css3",
@@ -25,9 +25,9 @@
   "author": "tristan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zerosoul/react-starter/issues"
+    "url": "https://github.com/zerosoul/css-color-cheatsheet/issues"
   },
-  "homepage": "https://zerosoul.github.io/react-starter",
+  "homepage": "https://works.yangerxiao.com/css-color-cheatsheet/",
   "dependencies": {
     "react": "^16.9.0",
     "react-copy-to-clipboard": "^5.0.1",
