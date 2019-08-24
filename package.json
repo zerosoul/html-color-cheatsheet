@@ -1,5 +1,5 @@
 {
-  "name": "css-color-cheatsheet",
+  "name": "html-color-cheatsheet",
   "version": "1.1.0",
   "description": "html color online",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zerosoul/css-color-cheatsheet.git"
+    "url": "git+https://github.com/zerosoul/html-color-cheatsheet.git"
   },
   "keywords": [
     "css3",
@@ -25,9 +25,9 @@
   "author": "tristan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zerosoul/css-color-cheatsheet/issues"
+    "url": "https://github.com/zerosoul/html-color-cheatsheet/issues"
   },
-  "homepage": "https://works.yangerxiao.com/css-color-cheatsheet/",
+  "homepage": "https://works.yangerxiao.com/html-color-cheatsheet/",
   "dependencies": {
     "react": "^16.9.0",
     "react-copy-to-clipboard": "^5.0.1",

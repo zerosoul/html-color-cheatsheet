@@ -37,7 +37,7 @@ const Footer = () => (
     </span>
 
     <span>
-      Checkout the source on <a href="//github.com/zerosoul/css-color-cheatsheet">Github</a>
+      Checkout the source on <a href="//github.com/zerosoul/html-color-cheatsheet">Github</a>
     </span>
   </Container>
 );
