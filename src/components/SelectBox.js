@@ -14,7 +14,7 @@ const Container = styled.section`
   z-index: 9999;
   height: 4rem;
   padding: 0.6rem;
-
+  box-shadow: 0px 0px 8px #676363;
   .current {
     flex: 6;
     display: flex;
@@ -37,7 +37,6 @@ const Container = styled.section`
         top: 0;
         right: 0;
         bottom: 0;
-        box-shadow: 1px 1px 12px 0px #0000008c;
       }
 
     }
@@ -74,6 +73,7 @@ const Container = styled.section`
     flex: 6;
     display: flex;
     background: #666;
+    border: 1px solid #adabab;
   }
 `;
 const Selected = styled.div`
