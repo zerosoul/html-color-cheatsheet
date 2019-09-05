@@ -1,5 +1,5 @@
 {
-  "short_name": "HTML COLOR",
+  "short_name": "HTML Color",
   "name": "HTML Color Cheatsheet Online",
   "icons": [
     {
@@ -12,6 +12,6 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#57647e",
+  "theme_color": "#1c8688",
   "background_color": "#8d949c"
 }
