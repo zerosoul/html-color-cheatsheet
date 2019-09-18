@@ -1,3 +1,3 @@
 # html-color-cheatsheet
 
-react webapp development scaffold for mobile and pc, with or without redux/router.
+Modern browsers support 140 named colors, You can find all here:[HTML color cheatsheet](https://works.yangerxiao.com/html-color-cheatsheet/)
