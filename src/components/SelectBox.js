@@ -73,7 +73,6 @@ const Container = styled.section`
     flex: 6;
     display: flex;
     background: #666;
-    border: 1px solid #adabab;
   }
 `;
 const Selected = styled.div`
@@ -94,7 +93,6 @@ const Selected = styled.div`
       }
 `;
 export default class SelectBox extends React.Component {
-
   render() {
     const { current, colors } = this.props;
     return (
@@ -122,7 +120,11 @@ export default class SelectBox extends React.Component {
             </div>
           </dl>
         </div>
-        <div className="colors">{colors.map(color => <Selected key={color.name} currColor={color} />)}</div>
+        <div className="colors">
+          {colors.map(color => (
+            <Selected key={color.name} currColor={color} />
+          ))}
+        </div>
       </Container>
     );
   }
