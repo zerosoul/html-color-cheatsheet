@@ -27,12 +27,12 @@ export function invertColor(hex, bw = false) {
   // pad each with zeros and return
   return `#${padZero(r)}${padZero(g)}${padZero(b)}`;
 }
-export const hexToRgb = hex =>
+export const hexToRgb = (hex) =>
   hex
     .replace(/^#?([a-f\d])([a-f\d])([a-f\d])$/i, (m, r, g, b) => `#${r}${r}${g}${g}${b}${b}`)
     .substring(1)
     .match(/.{2}/g)
-    .map(x => parseInt(x, 16));
+    .map((x) => parseInt(x, 16));
 
 export function RgbToHsl(rgb) {
   const [r, g, b] = rgb;
@@ -73,5 +73,7 @@ export function RgbToHsl(rgb) {
   return result;
 }
 export function removeDuplicates(myArr, prop) {
-  return myArr.filter((obj, pos, arr) => arr.map(mapObj => mapObj[prop]).indexOf(obj[prop]) === pos);
+  return myArr.filter(
+    (obj, pos, arr) => arr.map((mapObj) => mapObj[prop]).indexOf(obj[prop]) === pos
+  );
 }

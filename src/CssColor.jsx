@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import styled from 'styled-components';
 // import ColorInput from './components/convert.color/ColorInput';
 import ClickToSelect from './components/ClickToSelect';
@@ -20,9 +20,9 @@ const Container = styled.div`
   }
   .desc {
     line-height: 1.2;
-    font-weight:800;
-    font-size:1.4rem;
-    margin-bottom:.8rem;
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
     strong {
       color: #faf0e6;
     }
@@ -54,7 +54,7 @@ const Container = styled.div`
       tr {
         td {
           text-align: left;
-vertical-align:middle;
+          vertical-align: middle;
           button {
             text-transform: uppercase;
             letter-spacing: 0.06rem;
@@ -62,14 +62,15 @@ vertical-align:middle;
         }
       }
     }
-    td,th{
-    border-bottom: 1px solid hsla(0,0%,0%,0.12);
-    font-feature-settings: "tnum";
-    -webkit-font-feature-settings: "tnum";
-    padding-left: 1.06667rem;
-    padding-right: 1.06667rem;
-    padding-top: 0.8rem;
-    padding-bottom: calc(0.8rem - 1px);
+    td,
+    th {
+      border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+      font-feature-settings: 'tnum';
+      -webkit-font-feature-settings: 'tnum';
+      padding-left: 1.06667rem;
+      padding-right: 1.06667rem;
+      padding-top: 0.8rem;
+      padding-bottom: calc(0.8rem - 1px);
     }
   }
 `;
@@ -92,7 +93,7 @@ export default class ColorCheatsheet extends Component {
       },
     };
   }
-  handleColorClick = colorObj => {
+  handleColorClick = (colorObj) => {
     // console.log(colorObj);
     this.setState({
       current: colorObj,
@@ -107,11 +108,11 @@ export default class ColorCheatsheet extends Component {
   };
   render() {
     return (
-      <React.Fragment>
+      <>
         <Container>
           <h2 className="desc">
-            Modern browsers support 140+ named colors<br /> Use them in your HTML and CSS by{' '}
-            <strong>NAME | HEX | RGB</strong>
+            Modern browsers support 140+ named colors
+            <br /> Use them in your HTML and CSS by <strong>NAME | HEX | RGB</strong>
           </h2>
           <SelectBox {...this.state} />
           <table>
@@ -149,10 +150,9 @@ export default class ColorCheatsheet extends Component {
               ))}
             </tbody>
           </table>
-
         </Container>
         <Footer />
-      </React.Fragment>
+      </>
     );
   }
 }
