@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/zerosoul/html-color-cheatsheet/issues"
   },
-  "homepage": "https://works.yangerxiao.com/html-color-cheatsheet/",
+  "homepage": "https://html-colors.yangerxiao.com/",
   "dependencies": {
     "react": "^18.3.1",
     "react-copy-to-clipboard": "^5.1.0",
